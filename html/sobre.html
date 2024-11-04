@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="shortcut icon" href="../images/logo.png" type="FaviconUNES">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+
+        .header,
+        .footer {
+            background-color: #343a40;
+            color: #ffffff;
+        }
+
+        .btn-primary {
+            background-color: #007bff;
+            border-color: #007bff;
+        }
+
+        .gallery-img,
+        .card-img-top {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+
+        .card-img-top {
+            height: 250px;
+        }
+
+        @media (max-width: 768px) {
+            .card-img-top {
+                height: 200px;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .card-img-top {
+                height: 150px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header class="container-fluid header py-3">
+        <div class="d-flex justify-content-between align-items-center">
+            <img src="/images/logo.png" alt="LogoDaFaculdade" width="100">
+            <nav>
+                <ul class="nav">
+                    <li class="nav-item"><a class="nav-link text-white" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="sobre.html">Quem Somos</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="Contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="container mt-5">
+        <h1 class="text-center">Sobre a UNES</h1>
+        <p class="text-muted text-center">Descubra por que a UNES é a escolha certa para a sua formação!</p>
+
+        <h2>5 Motivos para Estudar na UNES</h2>
+        <ul class="list-group mb-4">
+            <li class="list-group-item">Material sempre atualizado</li>
+            <li class="list-group-item">Tablets em sala de aula</li>
+            <li class="list-group-item">Professores renomados</li>
+            <li class="list-group-item">Universidade bem localizada</li>
+            <li class="list-group-item">Ótima infraestrutura</li>
+        </ul>
+
+        <hr>
+
+        <h2>Atividades Extracurriculares</h2>
+        <p>A UNES oferece diversas atividades que complementam a formação acadêmica, incluindo:</p>
+        <ul class="list-group mb-4">
+            <li class="list-group-item">Palestras com profissionais da área</li>
+            <li class="list-group-item">Workshops e oficinas práticas</li>
+            <li class="list-group-item">Projetos de extensão comunitária</li>
+        </ul>
+
+        <hr>
+
+        <h2>Nossa Equipe</h2>
+        <div class="row mb-4">
+            
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="/images/prof02.jpg" class="card-img-top" alt="Professor B">
+                    <div class="card-body">
+                        <h5 class="card-title">Professor Messi</h5>
+                        <p class="card-text">Formado em Engenharia de Software.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="/images/prof03.jpg" class="card-img-top" alt="Professor C">
+                    <div class="card-body">
+                        <h5 class="card-title">Professor Suarez </h5>
+                        <p class="card-text">Experiência em Gestão de Projetos.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="/images/prof01.jpg" class="card-img-top" alt="Professor A">
+                    <div class="card-body">
+                        <h5 class="card-title">Professor Neymar</h5>
+                        <p class="card-text">Especialista em Educação e Tecnologia.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <h2>Galeria de Imagens</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <img src="/images/alunos01.jpg" class="img-fluid gallery-img" alt="Imagem 1">
+            </div>
+            <div class="col-md-4">
+                <img src="/images/alunos02.jpg" class="img-fluid gallery-img" alt="Imagem 2">
+            </div>
+            <div class="col-md-4">
+                <img src="/images/alunos03.jpg" class="img-fluid gallery-img" alt="Imagem 3">
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer text-white text-center py-3 mt-5">
+        <h6>Todos os direitos reservados © UNES</h6>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
